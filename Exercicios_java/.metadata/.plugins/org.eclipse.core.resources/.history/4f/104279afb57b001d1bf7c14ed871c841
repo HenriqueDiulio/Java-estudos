@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class TipoString {
+	public static void main(String[] args) {
+		//Qual a letra na 2 casa
+		System.out.println("Óla pessoal".charAt(2));
+		
+		String s = "Boa Tarde";
+		System.out.println(s);
+		System.out.println(s.concat("!!!"));
+		System.out.println(s+("!!!"));
+		
+		
+	}
+}
